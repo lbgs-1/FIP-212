@@ -8,6 +8,7 @@
 | 组别 | 5 |
 |:---|:---|
 | 成员 | 姜来、仝仲恒、熊奥华、曹智鑫、刘京、陆奕冰 |
+| 分工 | 写单调队列：陆奕冰 / 写 `heapq` 调度：姜来 / 推演追踪表：曹智鑫 / 跑测试与计时：熊奥华 / 整理 README 与反思：刘京、仝仲恒 |
 
 ## 2. 项目选择说明
 
@@ -150,8 +151,8 @@ def schedule_tasks(priorities, log=None):
 
 ## 10. SSH 练习（可选）
 
-- `ssh -T git@github.com` 成功截图：*
-- 已能通过 SSH push 的仓库链接：*
+- `ssh -T git@github.com` 输出：`Hi lbgs-1! You've successfully authenticated, but GitHub does not provide shell access.`
+- 已能通过 SSH push 的仓库：https://github.com/lbgs-1/fip-w8-lab
 
 > 注意：只提交 `.pub` 公钥与 `ssh -T` 截图；私钥 `id_ed25519`（`BEGIN OPENSSH PRIVATE KEY`）绝不提交、截图或发群。
 
